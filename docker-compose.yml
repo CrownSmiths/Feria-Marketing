@@ -9,17 +9,6 @@ services:
       mysql:
         condition: service_healthy
 
-  tailwind:
-    build:
-      context: .
-      dockerfile: dockerfile
-    volumes:
-      - .:/app
-      - /app/node_modules
-    tty: true
-    depends_on:
-      - php
-
   mysql:
     image: mysql:8.4
     container_name: feria-marketing-mysql
