@@ -1,17 +1,25 @@
 <body>
-	<div id="inicio" class="px-4 pt-5 my-5 text-center border-bottom">
-
-		<div class="container px-5">
-			<img src="img/logo_Crownsmith.svg" class="rounded-3 shadow-lg mb-4" alt="Main Logo" widht="300" height="300" loading="lazy">
-		</div>
-
-		<h3 class="display-4 fw-bold">
-			<span class="text-logo-secondary">Crown</span><span class="text-logo-tertiary">Smith</span>
-		</h3>
-		<div class="col-lg-6 mx-auto">
-			<p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-			<div class="">
-				<iframe width="100%" height="315" src="https://www.youtube.com/embed?listType=user_uploads&amp;list=WarnerBrosPictures" frameborder="0" allowfullscreen></iframe>
+	<div id="inicio" class="px-4 pt-5 my-5 text-left border-bottom container">
+		<div class="container">
+			<div class="row align-items-center">
+				<!-- Left: Text -->
+				<div class="col-md-8 md:text-center md:text-start">
+					<h3 class="display-6 fw-bold">
+						Dedicación a la forja de coronas dentales, <br>
+						mediante una generación automática e <br>
+						integra de modelos y cinceles.
+					</h3>
+					<p>
+						This is some text that will appear on the left side.
+						The image will be displayed alongside it.
+					</p>
+				</div>
+				<!-- Right: Image -->
+				<div class="col-md-4 sm:text-center md:text-end">
+					<img src="image.jpg"
+						class="img-fluid"
+						alt="Description">
+				</div>
 			</div>
 		</div>
 	</div>
@@ -26,6 +34,77 @@
 		<h5 class="display-5 fw-bold">
 			<span>Quienes Somos</span>
 		</h5>
+		<div class="container">
+			<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+				<!-- Team member cards will be dynamically generated here -->
+				<div class="col">
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Cristobal Espinoza C.</h5>
+						</div>
+						<img src="img/Foto-Cris.jpeg" class="card-img-top team-image" alt="Team Member Image">
+						<div class="card-body">
+							Encargado de Tecnología e Investigación.
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Elson Navarrete</h5>
+						</div>
+						<img src="img/Foto-Elson.jpeg" class="card-img-top team-image" alt="Team Member Image">
+						<div class="card-body">
+							Encargado en Pruebas y Calidad de Software.
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Benjamín Ponce C.</h5>
+						</div>
+						<img src="img/Foto-Benjamin.jpeg" class="card-img-top team-image" alt="Team Member Image">
+						<div class="card-body">
+							Encargado de Marketing.
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Álvaro Rojas V.</h5>
+						</div>
+						<img src="img/Foto-Alv.jpeg" class="card-img-top team-image" alt="Team Member Image">
+						<div class="card-body">
+							Ecargado de Scrum Master y Gestión de Proyecto.
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Gabriela Yañez</h5>
+						</div>
+						<img src="img/Foto-Gaby.jpeg" class="card-img-top team-image" alt="Team Member Image">
+						<div class="card-body">
+							Encargada de Interfaces y Experiencia de Usuario.
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card">
+						<div class="card-header">
+							<h5 class="card-title">Fernando Xais</h5>
+						</div>
+						<img src="img/Foto-Fede.jpeg" class="card-img-top team-image" alt="Team Member Image">
+						<div class="card-body">
+							Product Owner.
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<div id="contacto" class="px-4 pt-5 my-5 text-center border-bottom">
@@ -34,35 +113,13 @@
 		</h5>
 	</div>
 
-	<!-- <main class="flex-shrink-0 w3-center" style="max-width: 80% 80%;">
-		<div id="inicio" class="p-5 mb-4 bg-light rounded-3">
-			<h1 class="text-center">Inicio</h1>
-			<p class="text-center">Bienvenido a Crown Smith.</p>
-			<div class="row justify-content-center">
-				<div class="col-md-6 container bg-white w3-container w3-card w3-white w3-padding" style="min-height: 300px;">
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-				<div class="col-md-6">
-					<div class="class=" w3-card w3-white w3-padding" style="min-height: 300px;">
-						Lore Ipsum
-						
-					</div>
-				</div>
+	<div class="px-4 pt-5 my-5 text-center border-bottom">
+		<div class="container mx-auto px-6 text-center mb-10">
+			<p class="text-lg font-medium mb-4">Proyecto desarrollado para la <strong class="text-[#ADEFD1]">XXXIV Feria de Software</strong></p>
+			<div class="flex justify-center items-center gap-8 flex-wrap">
+				<img alt="Feria de Software USM" class="object-contain" width="250" src="img/logo_Crownsmith.svg">
+				<img alt="Feria de Software USM" class="object-contain" width="250" src="img/logo_fesw_claro.svg">
+				<img alt="Universidad Técnica Federico Santa María" class="object-contain" width="250" src="img/Departamento de Informática_VERTICAL.png">
 			</div>
 		</div>
-
-		<div id="producto" class="container min-vh-100 py-5">
-			<h2>Producto</h2>
-			<p>Conoce nuestras soluciones.</p>
-		</div>
-
-		<div id="equipo" class="container min-vh-100 py-5">
-			<h2>Equipo</h2>
-			<p>Conoce al equipo de Crown Smith.</p>
-		</div>
-
-		<div id="contacto" class="container min-vh-100 py-5">
-			<h2>Contacto</h2>
-			<p>Estamos aquí para ayudarte.</p>
-		</div>
-	</main> -->
+	</div>

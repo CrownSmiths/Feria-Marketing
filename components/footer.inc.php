@@ -1,11 +1,5 @@
+
 <footer class="bg-dark text-light pt-10">
-    <div class="container mx-auto px-6 text-center mb-10">
-        <p class="text-lg font-medium mb-4">Proyecto desarrollado para la <strong class="text-[#ADEFD1]">XXXIV Feria de Software</strong></p>
-        <div class="flex justify-center items-center gap-8 flex-wrap">
-            <img alt="Feria de Software USM" class="object-contain" width="500" src="img/logo_fesw_oscuro.svg">
-            <img alt="Universidad Técnica Federico Santa María" class="object-contain" width="500" src="img/Departamento de Informática_VERTICAL.png">
-        </div>
-    </div>
     <div class="border-t border-gray-600"></div>
     <div class="container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center">
         <p class="mb-4 md:mb-0 text-sm">

@@ -5,3 +5,8 @@
 .text-logo-tertiary {
   color: #26547c;
 }
+
+.team-image {
+  height: 400px;
+  object-fit: cover;
+}
