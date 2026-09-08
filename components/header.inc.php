@@ -1,10 +1,9 @@
-<header class="bg-dark text-light">
-    <div class="container py-5 my-4 text-center" id="home">
-        <h1 class="display-3 fw-bold">Hello World!</h1>
-        <p class="lead col-lg-8 mx-auto mt-3">
-            Welcome to <strong>Feria Marketing</strong>. We help your business grow with
-            data-driven marketing strategies and creative solutions.
-        </p>
-        <a href="#services" class="btn btn-primary btn-lg mt-4">Get Started</a>
-    </div>
-</header>
+<div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+        <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+            <img src="../img/logo_Crownsmith.svg" alt="Crown Smith Logo" width="80" height="80" class="me-2">
+            <span class="fs-4">Crown Smith</span>
+        </a>
+        <?php include('components/navbar.inc.php'); ?>
+    </header>
+</div>

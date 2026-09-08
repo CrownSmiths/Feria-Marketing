@@ -1,6 +1,6 @@
 <footer class="bg-dark text-light mt-auto">
-    <div class="container py-4 text-center" id="contact">
-        <p class="mb-0">&copy; <?php echo date('Y'); ?> Feria Marketing. All rights reserved.</p>
+    <div class="container py-4 text-center">
+        <p class="mb-0">&copy; <?php echo date('Y'); ?> Crown Smith. All rights reserved.</p>
     </div>
 </footer>
 
