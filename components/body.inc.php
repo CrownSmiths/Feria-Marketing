@@ -42,12 +42,34 @@
                 </div>
             </div>
         </div>
+        <div class="my-5"></div>
     </div>
 
     <div id="producto" class="px-3 pt-3 my-3 text-center border-bottom">
         <h5 class="display-5 fw-bold">
-            <span>Producto</span>
+            <span>Nuestra Solución a un </br> Problema Complejo</span>
         </h5>
+        <div class="container">
+            <div class="row justify-content-center g-4 text-center">
+                <div class="col-12 col-lg-6">
+                    <h2 class="h3 fw-bold">Uso de Deep Learning</h2>
+                    <p class="lead mb-2">
+                        Ultilizamos técnicas de entrenamiento de redes neuronales para generar una aproximación de prótesis dentales a partir de escáneres 3D.
+                    </p>
+                    <p class="mb-0">
+                        Permite que los laboratorios dentales puedan mejorar la eficiencia durante el modelamiento inicial de los pacientes.
+                        Reduciendo el tiempo de trabajo repetitivo y aumentando los casos resueltos durante el día.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <video autoplay loop mutted playsinline class="img-fluid rounded" style="max-width: 100%; height: 80%; border: 10px solid #333; border-radius: 8px;">
+                        <source src="img/Product_Sample_1.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                    </video>
+                </div>
+            </div>
+        </div>
+        <div class="my-2"></div>
     </div>
 
     <div id="equipo" class="px-4 pt-5 my-5 text-center border-bottom">
