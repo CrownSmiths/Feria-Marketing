@@ -1,21 +1,22 @@
 <body>
-    <div id="inicio" class="px-4 pt-5 my-5 text-left border-bottom container">
+    <div id="inicio" class="px-4 pt-5 my-5 text-center border-bottom container">
         <div class="container">
             <div class="row align-items-center">
                 <!-- Left: Text -->
-                <div class="col-md-8 md:text-center md:text-start">
+                <div class="col-lg-6 col-12 text-center text-lg-start">
                     <h3 class="display-6 fw-bold">
-                        Dedicación a la forja de coronas dentales, <br>
-                        mediante una generación automática e <br>
+                        Dedicación a la forja de coronas dentales,
+                        mediante una generación automática e
                         integra de modelos y cinceles.
                     </h3>
                     <p>
-                        This is some text that will appear on the left side.
-                        The image will be displayed alongside it.
+                        Buscamos mejorar la modelación de coronas dentales, 
+                        optimizando el proceso de diseño y fabricación, 
+                        para lograr resultados más precisos y eficientes.
                     </p>
                 </div>
                 <!-- Right: Image -->
-                <div class="col-md-4 sm:text-center md:text-end">
+                <div class="col-lg-6 col-12 text-center text-lg-end">
                     <?php include('components/viewport.php'); ?>
                 </div>
             </div>
@@ -26,8 +27,6 @@
         <h5 class="display-5 fw-bold">
             <span>Producto</span>
         </h5>
-
-        <?php include('components/viewport.php'); ?>
     </div>
 
     <div id="equipo" class="px-4 pt-5 my-5 text-center border-bottom">
@@ -35,15 +34,15 @@
             <span>Quienes Somos</span>
         </h5>
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex">
                 <!-- Team member cards will be dynamically generated here -->
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
-                            <h5 class="card-title">Cristobal Espinoza C.</h5>
+                            <h5 class="card-title">Cristobal Espinoza</h5>
                         </div>
                         <img src="img/Foto-Cris.jpeg" class="card-img-top team-image" alt="Team Member Image">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             Encargado de Tecnología e Investigación.
                         </div>
                         <a href="https://www.linkedin.com/in/cristobal-espinoza-91b872386/" class="btn btn-outline-primary mt-3" aria-label="LinkedIn de Cristobal Espinoza C.">
@@ -54,12 +53,12 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
                             <h5 class="card-title">Elson Navarrete</h5>
                         </div>
                         <img src="img/Foto-Elson.jpeg" class="card-img-top team-image" alt="Team Member Image">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             Encargado en Pruebas y Calidad de Software.
                         </div>
                         <a href="https://www.linkedin.com/in/elson-n/" class="btn btn-outline-primary mt-3" aria-label="LinkedIn de Elson Navarrete">
@@ -70,13 +69,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
-                            <h5 class="card-title">Benjamín Ponce C.</h5>
+                            <h5 class="card-title">Benjamín Ponce</h5>
                         </div>
                         <img src="img/Foto-Benjamin.jpeg" class="card-img-top team-image" alt="Team Member Image">
-                        <div class="card-body">
-                            Encargado de Marketing.
+                        <div class="card-body d-flex flex-column">
+                            Encargado de Marketing. <br> 
                         </div>
                         <a href="https://www.linkedin.com/in/benjam%C3%ADn-ponce-carrera-inf/" class="btn btn-outline-primary mt-3" aria-label="LinkedIn de Benjamin Ponce C.">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
@@ -86,13 +85,13 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
-                            <h5 class="card-title">Álvaro Rojas V.</h5>
+                            <h5 class="card-title">Álvaro Rojas</h5>
                         </div>
                         <img src="img/Foto-Alv.jpeg" class="card-img-top team-image" alt="Team Member Image">
-                        <div class="card-body">
-                            Ecargado de Scrum Master y Gestión de Proyecto.
+                        <div class="card-body d-flex flex-column">
+                            Scrum Master y Gestión de Proyecto.
                         </div>
                         <a href="https://www.linkedin.com/in/alvaro-roj-val/" class="btn btn-outline-primary mt-3" aria-label="LinkedIn de Alvaro Rojas V.">
                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true">
@@ -102,12 +101,12 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
                             <h5 class="card-title">Gabriela Yañez</h5>
                         </div>
                         <img src="img/Foto-Gaby.jpeg" class="card-img-top team-image" alt="Team Member Image">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             Encargada de Interfaces y Experiencia de Usuario.
                         </div>
                         <a href="https://www.linkedin.com/in/gabriela-y%C3%A1%C3%B1ez-pavez-749041399/" class="btn btn-outline-primary mt-3" aria-label="LinkedIn de Gabriela Yanez">
@@ -118,12 +117,12 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100">
                         <div class="card-header">
                             <h5 class="card-title">Fernando Xais</h5>
                         </div>
                         <img src="img/Foto-Fede.jpeg" class="card-img-top team-image" alt="Team Member Image">
-                        <div class="card-body">
+                        <div class="card-body d-flex flex-column">
                             Product Owner.
                         </div>
                         <a href="https://www.linkedin.com/in/fernando-xais-b04a52331/" class="btn btn-outline-primary mt-3" aria-label="LinkedIn de Fernando Xais">

@@ -18,8 +18,7 @@
 .three-viewport {
   height: 360px;
   min-height: 360px;
-  max-width: 520px;
-  overflow: hidden;
+  overflow: clip;
   width: 100%;
 }
 

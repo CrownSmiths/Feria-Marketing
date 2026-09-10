@@ -1,19 +1,30 @@
-
-<footer class="bg-dark text-light pt-10">
-    <div class="border-t border-gray-600"></div>
-    <div class="container mx-auto px-6 py-6 flex flex-col md:flex-row justify-between items-center">
-        <p class="mb-4 md:mb-0 text-sm">
-            © 2026
-            <span class="font-semibold text-[#ADEFD1]">Crown Smith</span> 
-            - Todos los derechos reservados
-        </p>
-        <nav class="space-x-4 text-sm md:ml-auto text-right">
-            <a class="hover:text-[#ADEFD1]" href="#/" data-discover="true">Inicio</a>
-            <a class="hover:text-[#ADEFD1]" href="#/producto" data-discover="true">Producto</a>
-            <a class="hover:text-[#ADEFD1]" href="#/equipo" data-discover="true">Equipo</a>
-            <a class="hover:text-[#ADEFD1]" href="#/instalacion" data-discover="true">Instalación</a>
-            <a class="hover:text-[#ADEFD1]" href="#/contacto" data-discover="true">Contacto</a>
-        </nav>
+<footer class="py-5 pt-10 bg-dark text-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-6 col-md-6 md-3">
+                <h5 class="font-semibold text-[#ADEFD1]"><strong>CrownSmith</strong></h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-light" data-discover="true">Inicio</a></li>
+                    <li class="nav-item mb-2"><a href="#producto" class="nav-link p-0 text-light" data-discover="true">Producto</a></li>
+                    <li class="nav-item mb-2"><a href="#equipo" class="nav-link p-0 text-light" data-discover="true">Equipo</a></li>
+                    <li class="nav-item mb-2"><a href="#contacto" class="nav-link p-0 text-light" data-discover="true">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-8 col-md-6 md-3">
+                <h5 class="font-semibold text-[#ADEFD1]"><strong>Contacto</strong></h5>
+                <ul class="nav flex-column">
+                    <li class="nav-item mb-2"><a href="mailto:crownsmith.team@gmail.com" class="nav-link p-0 text-light">crownsmith.team@gmail.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-center mb-4">
+            <img src="img/logo_Crownsmith_oscuro.svg" alt="CrownSmith Logo" style="height: 50px;">
+        </div>
+        <div class="d-flex justify-content-between py-4 my-4 border-top">
+            <p>&copy; 2026 CrownSmith. Todos los derechos reservados.</p>
+        </div>
     </div>
 </footer>
 
