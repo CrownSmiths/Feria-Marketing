@@ -7,7 +7,7 @@
                     <h3 class="display-6 fw-bold">
                         Dedicación a la forja de coronas dentales,
                         mediante una generación automática e
-                        integra de modelos y cinceles.
+                        integración de modelos predictivos y cinceles.
                     </h3>
                     <p>
                         Buscamos mejorar la modelación de coronas dentales, 
@@ -18,6 +18,27 @@
                 <!-- Right: Image -->
                 <div class="col-lg-6 col-12 text-center text-lg-end">
                     <?php include('components/viewport.php'); ?>
+                </div>
+            </div>
+            
+            <!-- YouTube Video Card -->
+            <div class="row mt-5 justify-content-center">
+                <div class="col-lg-8 col-12">
+                    <h4 class="fw-bold mb-3">Video Promocional</h4>
+                    <div class="card">
+                        <div class="card-body p-0">
+                            <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
+                                <iframe 
+                                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 4px solid #333; border-radius: 8px;" 
+                                    src="https://www.youtube.com/embed/0iVlSNpq8i8" 
+                                    title="YouTube video player" 
+                                    frameborder="0" 
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                                    allowfullscreen>
+                                </iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -179,9 +200,15 @@
     <div class="px-4 pt-5 my-5 text-center border-bottom">
         <div class="container mx-auto px-6 text-center mb-10">
             <div class="flex justify-center items-center gap-8 flex-wrap">
-                <img alt="Feria de Software USM" class="object-contain" width="250" src="img/logo_Crownsmith.svg">
-                <img alt="Feria de Software USM" class="object-contain" width="250" src="img/logo_fesw_claro.svg">
-                <img alt="Universidad Técnica Federico Santa María" class="object-contain" width="250" src="img/Departamento de Informática_VERTICAL.png">
+                <a href="https://crownsmith.feriadesoftware.cl/" target="_blank" rel="noopener noreferrer" aria-label="Crown Smith">
+                    <img alt="Feria de Software USM" class="object-contain" width="250" src="img/logo_Crownsmith.svg">
+                </a>
+                <a href="https://feriadesoftware.cl/" target="_blank" rel="noopener noreferrer" aria-label="Feria de Software">
+                    <img alt="Feria de Software USM" class="object-contain" width="250" src="img/logo_fesw_claro.svg">
+                </a>
+                <a href="https://informatica.usm.cl/" target="_blank" rel="noopener noreferrer" aria-label="Departamento de Informática UTFSM">
+                    <img alt="Universidad Técnica Federico Santa María" class="object-contain" width="250" src="img/Departamento de Informática_VERTICAL.png">
+                </a>
             </div>
             <p class="text-lg font-medium mb-4">Proyecto desarrollado para la <strong class="text-[#ADEFD1]">XXXIV Feria de Software</strong></p>
         </div>
