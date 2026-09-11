@@ -13,7 +13,7 @@
             <div class="col-8 col-md-6 md-3">
                 <h5 class="font-semibold text-[#ADEFD1]"><strong>Contacto</strong></h5>
                 <ul class="nav flex-column">
-                    <li class="nav-item mb-2"><a href="mailto:crownsmith.team@gmail.com" class="nav-link p-0 text-light">crownsmith.team@gmail.com</a></li>
+                    <li class="nav-item mb-2"><a href="mailto:crownsmiths.team@gmail.com" class="nav-link p-0 text-light">crownsmiths.team@gmail.com</a></li>
                 </ul>
             </div>
         </div>

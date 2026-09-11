@@ -5,7 +5,7 @@
                 <!-- Left: Text -->
                 <div class="col-lg-6 col-12 text-center text-lg-start">
                     <h3 class="display-6 fw-bold">
-                        Dedicación a la forja de coronas dentales,
+                        Dedicación a la forja de coronas dentales
                         mediante una generación automática e
                         integración de modelos predictivos y cinceles.
                     </h3>
@@ -30,7 +30,7 @@
                             <div style="position: relative; width: 100%; padding-bottom: 56.25%;">
                                 <iframe 
                                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 4px solid #333; border-radius: 8px;" 
-                                    src="https://www.youtube.com/embed/0iVlSNpq8i8?enablejsapi=1" 
+                                    src="https://www.youtube.com/embed/gkZ6F8E0EPo?enablejsapi=1" 
                                     title="YouTube video player" 
                                     frameborder="0" 
                                     allow="encrypted-media; web-share" 
@@ -42,7 +42,7 @@
                 </div>
             </div>
         </div>
-        <div class="my-5"></div>
+        <div class="py-2"></div>
     </div>
 
     <div id="producto" class="px-3 pt-3 my-3 text-center border-bottom">
@@ -54,7 +54,7 @@
                 <div class="col-12 col-lg-6">
                     <h2 class="h3 fw-bold">Uso de Deep Learning</h2>
                     <p class="lead mb-2">
-                        Ultilizamos técnicas de entrenamiento de redes neuronales para generar una aproximación de prótesis dentales a partir de escáneres 3D.
+                        Utilizamos técnicas de entrenamiento de redes neuronales para generar una aproximación de prótesis dentales a partir de escáneres 3D.
                     </p>
                     <p class="mb-0">
                         Permite que los laboratorios dentales puedan mejorar la eficiencia durante el modelamiento inicial de los pacientes.
@@ -69,13 +69,63 @@
                 </div>
             </div>
         </div>
-        <div class="my-2"></div>
+        <div class="py-2"></div>
+        <div class="container">
+            <div class="row justify-content-center g-4 text-center">
+                <div class="col-12 col-lg-6">
+                    <h2 class="h3 fw-bold">Plataforma con Herramientas de Esculpido</h2>
+                    <p class="lead mb-2">
+                        Elegimos <i>State of the Art</i> en herramientas de esculpido 3D pensado para el modelamiento de coronas.
+                    </p>
+                    <p class="mb-0">
+                        Esperamos que los usarios de reconstrucción se sientan cómodos y familiarizados con la plataforma.
+                    </p>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <video autoplay loop mutted playsinline class="img-fluid rounded" style="max-width: 100%; height: 80%; border: 10px solid #333; border-radius: 8px;">
+                        <source src="img/Product_Sample_2.mp4" type="video/mp4">
+                        Tu navegador no soporta la etiqueta de video.
+                    </video>
+                </div>
+            </div>
+        </div>
     </div>
 
     <div id="equipo" class="px-4 pt-5 my-5 text-center border-bottom">
         <h5 class="display-5 fw-bold">
             <span>Quienes Somos</span>
         </h5>
+        <div class="py-2"></div>
+        <div class="container">
+            <div class="row g-3 mb-4">
+                <div class="col-12 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="card-title mb-0">Misión</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Buscamos demostrar que la generación automática de coronas dentales es posible gracias al uso de Deep Learning.
+                                Con ello llegaremos a reducir un problema complejo y persistente en los profecionales de reconstrucción dental.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card h-100">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="card-title mb-0">Visión</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Nuestro futuro es lograr que nuestra forgadora llegen a todos los laboratorios dentales a nivel de Chile. Invitaremos a distintos especialistas para que prueben 
+                                la nueva tecnologìa, y que las puedan implementar en sus flujos internos.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 d-flex">
                 <!-- Team member cards will be dynamically generated here -->
