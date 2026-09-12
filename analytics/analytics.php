@@ -9,7 +9,7 @@ header('Cache-Control: no-store');
 // CONFIGURACIÓN
 // ---------------------------------------------------------
 
-$dbHost = 'fesw2026';
+$dbHost = '172.0.0.1';
 $dbName = 'fs2026_crownsmith';
 $dbUser = 'fs2026_crownsmith';
 $dbPass = '37RqkuL8';
@@ -257,26 +257,31 @@ $sql = "
 
 $stmt = $pdo->prepare($sql);
 
-$stmt->execute([
-    ':event_name'      => $eventName,
-    ':page_path'       => $pagePath,
-    ':device_type'     => $deviceType,
-    ':browser'         => $browser,
-    ':os'              => $os,
-    ':language'        => $language,
-    ':country_code'    => $countryCode,
-    ':region'          => $region,
-    ':city'            => $city,
-    ':referrer_domain' => $referrerDomain,
-    ':utm_source'      => $utmSource,
-    ':utm_medium'      => $utmMedium,
-    ':utm_campaign'    => $utmCampaign,
-    ':utm_content'     => $utmContent,
-    ':utm_term'        => $utmTerm,
-]);
+try {
+    $stmt->execute([
+        ':event_name'      => $eventName,
+        ':page_path'       => $pagePath,
+        ':device_type'     => $deviceType,
+        ':browser'         => $browser,
+        ':os'              => $os,
+        ':language'        => $language,
+        ':country_code'    => $countryCode,
+        ':region'          => $region,
+        ':city'            => $city,
+        ':referrer_domain' => $referrerDomain,
+        ':utm_source'      => $utmSource,
+        ':utm_medium'      => $utmMedium,
+        ':utm_campaign'    => $utmCampaign,
+        ':utm_content'     => $utmContent,
+        ':utm_term'        => $utmTerm,
+    ]);
 
-echo json_encode([
-    'ok' => true
-]);
+    echo json_encode([
+        'ok' => true
+    ]);
+} catch (PDOException $e) {
+    http_response_code(500);
+    echo json_encode(['ok' => false, 'message' => $e->getMessage()]);
+}
 
 ?>
