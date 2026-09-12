@@ -9,7 +9,7 @@ header('Cache-Control: no-store');
 // CONFIGURACIÓN
 // ---------------------------------------------------------
 
-$dbHost = 'localhost';
+$dbHost = 'fesw2026';
 $dbName = 'fs2026_crownsmith';
 $dbUser = 'fs2026_crownsmith';
 $dbPass = 'fs2026_crownsmith';
