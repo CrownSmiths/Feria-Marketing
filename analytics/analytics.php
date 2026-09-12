@@ -12,7 +12,7 @@ header('Cache-Control: no-store');
 $dbHost = 'fesw2026';
 $dbName = 'fs2026_crownsmith';
 $dbUser = 'fs2026_crownsmith';
-$dbPass = 'fs2026_crownsmith';
+$dbPass = '37RqkuL8';
 
 // ---------------------------------------------------------
 // CONEXIÓN
@@ -30,7 +30,7 @@ try {
     );
 } catch (PDOException $e) {
     http_response_code(500);
-    echo json_encode(['ok' => false]);
+    echo json_encode(['ok' => false, 'message' => $e->getMessage()]);
     exit;
 }
 
