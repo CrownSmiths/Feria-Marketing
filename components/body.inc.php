@@ -1,4 +1,8 @@
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXLH79VF"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <div id="inicio" class="px-4 pt-5 my-5 text-center border-bottom container">
         <div class="container">
             <div class="row align-items-center">
